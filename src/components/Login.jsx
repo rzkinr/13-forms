@@ -14,6 +14,10 @@ export default function Login() {
       email: enteredEmail,
       password: enteredPassword,
     });
+
+    // not recommended to manipulate DOM directly
+    // email.current.value = '';
+    // password.current.value = '';
   }
 
   return (
